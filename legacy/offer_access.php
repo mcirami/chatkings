@@ -75,7 +75,7 @@ if (isset($updateOccurred))
 <div class = "right_panel">
 	<div class = "white_box_outer">
 		<div class = "heading_holder value_span9"><span class = "lft">Offer Access - <?= $offer->offer_name ?></span></div>
-		<div class = "white_box value_span8">
+		<div class = "content_box value_span8">
 			
 			<form action = "offer_access.php?id=<?= $id ?>" method = "post" id = "form"
 				  enctype = "multipart/form-data">

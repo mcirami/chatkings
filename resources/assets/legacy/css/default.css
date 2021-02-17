@@ -229,6 +229,11 @@ img {
 	float: left;
 }
 
+.my_row {
+	width: 100%;
+	float: left;
+}
+
 .top_sec {
 	width: 100%;
 	padding: 15px 0;
@@ -540,7 +545,6 @@ border-left:3px solid #2a58ad;
 	width: 100%;
 	display: inline-block;
 	font-size: 14px;
-	/*color:#999999;*/
 	font-family: 'Lato-Italic';
 	margin: 8px 0 0 0;
 }
@@ -549,7 +553,6 @@ border-left:3px solid #2a58ad;
 	width: 100%;
 	display: inline-block;
 	font-size: 14px;
-	/*color:#999999;*/
 	font-family: 'Lato-Bold';
 	margin: 8px 0 0 0;
 }
@@ -566,10 +569,13 @@ border-left:3px solid #2a58ad;
 }
 
 .heading_holder span.lft {
-	width: auto;
+	width: 100%;
 	float: left;
 	font-size: 26px;
-	/*color:#404452;*/
+}
+
+.heading_holder a.btn {
+	margin: 10px 0;
 }
 
 .heading_holder span.rt {

@@ -13,7 +13,7 @@
         @endif
 
         <div class="pages">
-            <label for="page">Page &nbsp;</label>
+            <label class="value_span10" for="page">Page &nbsp;</label>
             <select onchange="window.location = '/{{request()->path() . '?' . http_build_query(request()->except('page'))}}&page='+getElementById('page').value ;"
                     id="page" name="page">
 

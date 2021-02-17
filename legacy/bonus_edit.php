@@ -53,7 +53,7 @@ $assignedUsers = \LeadMax\TrackYourStats\User\Bonus::queryFindAssignedUsers($ass
 	<div class = "right_panel">
 		<div class = "white_box_outer">
 			<div class = "heading_holder value_span9"><span class = "lft">Edit Bonus</span></div>
-			<div class = "white_box value_span8">
+			<div class = "content_box value_span8">
 				
 				<form action = "<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>" method = "post" id = "form"
 					  enctype = "multipart/form-data">

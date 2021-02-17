@@ -1,11 +1,11 @@
 @extends('layouts.master')
 @section('content')
-    <div class="right_panel">
+    <div class="right_panel value_span7">
         <div class="white_box_outer">
             <div class="heading_holder value_span9">
                 <span class="lft">Edit SMS Client </span>
             </div>
-            <div class="white_box value_span8">
+            <div class="content_box value_span8">
                 <form action="/sms/client/update" method="post">
                     {{csrf_field()}}
                     <input type="hidden" name="id" value="{{$smsClient->id}}">

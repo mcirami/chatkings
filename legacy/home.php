@@ -15,7 +15,7 @@ include 'header.php';
                 <span class="lft value_span9">My Account</span>
             </div>
             <div class="clear"></div>
-            <div class="white_box value_span8">
+            <div class="content_box value_span8">
 
                 <div class="com_acc">
                     <p><span class="lft value_span9">Name</span><span
@@ -43,11 +43,11 @@ include 'header.php';
 
 
                     <div class="btn btn-default">
-                        <a class="value_span11 value_span2 value_span4"
+                        <a class="value_span6-1 value_span2 value_span4"
                            href="aff_update.php?idrep=<?php echo \LeadMax\TrackYourStats\System\Session::userID(); ?>">Update Account</a>
                     </div>
                 </div><!-- com_acc -->
-            </div><!-- white_box -->
+            </div><!-- content_box -->
         </div><!-- white_box_outer -->
     </div>
     <!--right_panel-->

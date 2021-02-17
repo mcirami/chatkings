@@ -3,10 +3,10 @@
 @section('content')
 
     <!--right_panel-->
-    <div class="right_panel" id="app">
+    <div class="right_panel value_span7" id="app">
         <div class="white_box_outer">
             <div class="heading_holder value_span9"><span class="lft">Create Offer</span></div>
-            <div class="white_box value_span8">
+            <div class="content_box value_span8">
 
                 <form action="/offer/create" method="post" enctype="multipart/form-data">
 

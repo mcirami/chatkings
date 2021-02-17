@@ -3,7 +3,7 @@
 @section('content')
 
     <!--right_panel-->
-    <div class="right_panel">
+    <div class="right_panel value_span7">
         <div class="white_box_outer large_table ">
             <div class="heading_holder">
                 <span class="lft value_span9">Email Pools</span>
@@ -13,8 +13,8 @@
 
             <h3>Owned Pools</h3>
             <div class="clear"></div>
-            <div class="white_box_x_scroll white_box manage_aff  value_span8  ">
-                <table class="table table-bordered">
+            <div class="white_box_x_scroll content_box manage_aff  value_span8  ">
+                <table class="table">
                     <thead>
                     <th>Pool</th>
                     <th>Timestamp</th>
@@ -36,8 +36,8 @@
 
             <div class="clear"></div>
             <h3>Available Pools</h3>
-            <div class="white_box_x_scroll white_box manage_aff   value_span8  ">
-                <table class="table table-bordered">
+            <div class="white_box_x_scroll content_box manage_aff   value_span8  ">
+                <table class="table">
                     <thead>
                     <th>Pool</th>
                     <th>Timestamp</th>

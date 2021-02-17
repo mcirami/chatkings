@@ -40,7 +40,7 @@ $row = \LeadMax\TrackYourStats\System\IPBlackList::selectOne($id)->fetch(PDO::FE
 
         </div>
 
-        <div class=" white_box  value_span8 ">
+        <div class=" content_box  value_span8 ">
 
 
             <form action="edit_blacklisted_ip.php?id=<?=$row->id?>" method="post">
@@ -48,11 +48,11 @@ $row = \LeadMax\TrackYourStats\System\IPBlackList::selectOne($id)->fetch(PDO::FE
 
 
                     <p>
-                        <label for="start">Start Range:</label>
+                        <label class="value_span10" for="start">Start Range:</label>
                         <input type="text" name="start" value="<?=long2ip($row->start)?>">
                     </p>
                     <p>
-                        <label for="end">End Range:</label>
+                        <label class="value_span10" for="end">End Range:</label>
                         <input type="text" name="end" value="<?= long2ip($row->end)?>">
                     </p>
 

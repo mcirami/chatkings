@@ -38,7 +38,7 @@ $bonuses = new \LeadMax\TrackYourStats\User\Bonus(\LeadMax\TrackYourStats\System
 		
 		?></div>
 	<div class = "clear"></div>
-	<div class = "  white_box value_span8 manage_aff large_table" style = "overflow-x: scroll;">
+	<div class = "  content_box value_span8 manage_aff large_table" style = "overflow-x: scroll;">
 		
 		<form action = "<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>" method = "post" id = "form"
 			  enctype = "multipart/form-data">
@@ -46,9 +46,9 @@ $bonuses = new \LeadMax\TrackYourStats\User\Bonus(\LeadMax\TrackYourStats\System
 			
 			<div class = " left_con01">
 				
-				<table class = "table  table-bordered table_01" id = "mainTable">
+				<table class = "table table_01" id = "mainTable">
 					<thead>
-					<tr>
+					<tr class="value_span2-4">
 						<td>Id</td>
 						<td>Name</td>
 						<td>Sales Required</td>

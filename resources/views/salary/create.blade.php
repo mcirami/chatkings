@@ -3,7 +3,7 @@
 @section('content')
 
     <!--right_panel-->
-    <div class="right_panel">
+    <div class="right_panel value_span7">
         <div class="white_box_outer">
             <div class="heading_holder value_span9"><span
                         class="lft">Create salary for {{$user->user_name}}</span>
@@ -11,7 +11,7 @@
 
 
             <form action="/user/{{$user->idrep}}/salary/create" method="post">
-                <div class="white_box value_span8">
+                <div class="content_box value_span8">
                     <div class="left_con01">
                         {{csrf_field()}}
                         <p>

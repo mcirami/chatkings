@@ -2,7 +2,7 @@
 
 @section('content')
     <!--right_panel-->
-    <div class="right_panel">
+    <div class="right_panel value_span7">
         <div class="white_box_outer large_table ">
             <div class="heading_holder">
                 <span class="lft value_span9">View User Accounts</span>
@@ -21,19 +21,19 @@
             </div>
 
             <div class="clear"></div>
-            <div class="white_box_x_scroll white_box manage_aff large_table value_span8 ">
+            <div class="white_box_x_scroll content_box manage_aff large_table value_span8 ">
                 <table class="table table-striped  table_01  " id="mainTable">
                     <thead>
-                    <tr>
-                        <th class="value_span8">User ID</th>
-                        <th class="value_span8">First Name</th>
-                        <th class="value_span8">Last Name</th>
-                        <th class="value_span8">Cell Phone</th>
-                        <th class="value_span8">Username</th>
-                        <th class="value_span8">Status</th>
-                        <th class="value_span8">Referrer User Name</th>
-                        <th class="value_span8">Timestamp</th>
-                        <th class="value_span8">Actions</th>
+                    <tr class="value_span10-1">
+                        <th>User ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Cell Phone</th>
+                        <th>Username</th>
+                        <th>Status</th>
+                        <th>Referrer User Name</th>
+                        <th>Timestamp</th>
+                        <th>Actions</th>
                         <th></th>
 
                         @if (request('role',3) == 2)

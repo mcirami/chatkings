@@ -41,7 +41,7 @@ if(isset($_POST["id"]) && isset($_POST["name"]))
         <div class="clear"></div>
         <form action="campaign_edit.php?id=<?=$campaign->id?>" method="POST">
 
-            <div class="white_box value_span8">
+            <div class="content_box value_span8">
 
                 <div class="left_con01">
 

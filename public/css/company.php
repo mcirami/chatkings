@@ -19,7 +19,7 @@ $valueSpan10 = $colors[9];
 $valueSpan11 = $colors[10];
 
 ?>
-.value_span1 {
+.value_span1{
 background-color: #<?php echo $valueSpan1; ?>;
 }
 
@@ -38,6 +38,11 @@ color: #<?php echo $valueSpan2; ?> ;
 .value_span2-3:hover {
 border: 2px solid #<?php echo $valueSpan2; ?> !important;
 }
+
+.value_span2-4 {
+  background: <?php echo $valueSpan2; ?>;
+}
+
 .value_span3 {
 background: #<?php echo $valueSpan3; ?> ;
 }
@@ -68,7 +73,11 @@ background: #<?php echo $valueSpan4; ?>;
 }
 
 .value_span4-1:hover {
-background: #<?php echo $valueSpan3; ?>;
+background: #<?php echo $valueSpan4; ?>;
+}
+
+.value_span4-3:hover {
+  background: #<?php echo $valueSpan4; ?>;
 }
 
 .value_span5 {
@@ -77,6 +86,10 @@ color: #<?php echo $valueSpan5; ?> ;
 
 .value_span5-1 {
   background: #<?php echo $valueSpan5; ?> ;
+}
+
+.value_span5-2 {
+  border-bottom: 1px solid #<?php echo $valueSpan5; ?>;
 }
 
 .value_span6:hover {
@@ -88,7 +101,7 @@ color: #<?php echo $valueSpan5; ?> ;
 }
 
 .value_span6-2 {
-background: #<?php echo $valueSpan6; ?> ;
+  background: #<?php echo $valueSpan6; ?> ;
 }
 
 .value_span6-3:hover a {
@@ -107,9 +120,7 @@ background: #<?php echo $valueSpan6; ?> ;
 }
 
 .tr_row_space {
-border-bottom: 3em solid #<?php echo $valueSpan7; ?>;
-
-
+  border-bottom: 3em solid #<?php echo $valueSpan7; ?>;
 }
 
 .value_span8 {
@@ -120,12 +131,42 @@ background: #<?php echo $valueSpan8; ?> ;
 color: #<?php echo $valueSpan9; ?> ;
 }
 
+.value_span9-1 {
+
+}
+
 .value_span10 {
-color: #999999;
+  color: #<?php echo $valueSpan10; ?>;
+}
+
+.value_span10-1 {
+  background: #<?php echo $valueSpan10; ?>;
 }
 
 .value_span11 {
   background: #<?php echo $valueSpan11; ?>;
 }
 
+.value_span11-1:hover {
+  color: #<?php echo $valueSpan11; ?>;
+}
 
+.value_span11-2:hover, .value_span11-2.active{
+  background: #<?php echo $valueSpan11; ?>;
+{
+
+table tbody td {
+  border-color: #<?php echo $valueSpan5; ?> !important;
+}
+
+table thead td {
+  border: none !important;
+}
+
+table > thead, table > thead > tr {
+  background: #<?php echo $valueSpan2; ?> !important;
+}
+
+table thead th, .table-bordered>thead>tr>th {
+  border: none !important;
+}

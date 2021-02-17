@@ -31,18 +31,18 @@ $reporter = new \LeadMax\TrackYourStats\Report\Reporter($repo);
 		</div>
 		
 		<div class = "clear"></div>
-		<div class = "white_box_x_scroll white_box manage_aff large_table value_span8  ">
-			<table class = "table table-bordered table_01 tablesorter" id = "mainTable">
+		<div class = "white_box_x_scroll content_box manage_aff large_table value_span8  ">
+			<table class = "table table_01 tablesorter" id = "mainTable">
 				<thead>
 				
-				<tr>
-					<th class = "value_span9">User ID</th>
-					<th class = "value_span9">User Name</th>
-					<th class = "value_span9">Ban Date</th>
-					<th class = "value_span9">Ban Expires</th>
-					<th class = "value_span9">Reason</th>
-					<th class = "value_span9">Status</th>
-					<th class = "value_span9">Actions</th>
+				<tr class="value_span10-1">
+					<th>User ID</th>
+					<th>User Name</th>
+					<th>Ban Date</th>
+					<th>Ban Expires</th>
+					<th>Reason</th>
+					<th>Status</th>
+					<th>Actions</th>
 				</tr>
 				</thead>
 				<?php

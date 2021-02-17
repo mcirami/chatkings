@@ -46,7 +46,7 @@ $bonusOffer = \App\BonusOffer::where('offer_id', '=', $idoffer)->first();
     <div class="right_panel">
     <div class="white_box_outer">
         <div class="heading_holder value_span9"><span class="lft">Edit Offer <?php echo $idoffer; ?></span></div>
-        <div class="white_box value_span8">
+        <div class="content_box value_span8">
 
             <form action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" id="form"
                   enctype="multipart/form-data">
@@ -355,7 +355,7 @@ $bonusOffer = \App\BonusOffer::where('offer_id', '=', $idoffer)->first();
                         <input class="fixCheckBox" type="checkbox" id="enable_bonus_offer"
                                name="enable_bonus_offer"> Enable
                     <p id="bonus_offer_div" style="display:none;">
-                        <label for="required_sales">Required Sales:</label>
+                        <label class="value_span10" for="required_sales">Required Sales:</label>
                         <input type="number" name="required_sales" id="required_sales"
                                value="<?= is_null($bonusOffer) ? 0 : $bonusOffer->required_sales ?>"
                                style="width:100px" disabled>

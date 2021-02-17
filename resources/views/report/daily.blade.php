@@ -10,17 +10,17 @@
 @endsection
 
 @section('table')
-    <table class="table table-bordered table-striped table_01 tablesorter" id="mainTable">
+    <table class="table table-striped table_01 tablesorter" id="mainTable">
         <thead>
-        <tr>
-            <th class="value_span9">Date</th>
-            <th class="value_span9">Raw</th>
-            <th class="value_span9">Unique</th>
-            <th class="value_span9">Free Sign Ups</th>
-            <th class="value_span9">Pending Conversions</th>
-            <th class="value_span9">Conversions</th>
-            <th class="value_span9">Revenue</th>
-            <th class="value_span9">Deductions</th>
+        <tr class="value_span10-1">
+            <th>Date</th>
+            <th>Raw</th>
+            <th>Unique</th>
+            <th>Free Sign Ups</th>
+            <th>Pending Conversions</th>
+            <th>Conversions</th>
+            <th>Revenue</th>
+            <th>Deductions</th>
         </tr>
         </thead>
         <tbody>

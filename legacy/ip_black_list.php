@@ -35,16 +35,16 @@ $ips = \LeadMax\TrackYourStats\System\IPBlackList::selectIPs()->fetchAll(PDO::FE
 
         </div>
 
-        <div class="white_box_x_scroll white_box manage_aff large_table value_span8 ">
-            <table class="table table-bordered table_01" id="mainTable">
+        <div class="white_box_x_scroll content_box manage_aff large_table value_span8 ">
+            <table class="table table_01" id="mainTable">
                 <thead>
 
-                <tr>
-                    <th class="value_span9">ID</th>
-                    <th class="value_span9">Start Range</th>
-                    <th class="value_span9">End Range</th>
-                    <th class="value_span9">Created On</th>
-                    <th class="value_span9">Actions</th>
+                <tr class="value_span10-1">
+                    <th>ID</th>
+                    <th>Start Range</th>
+                    <th>End Range</th>
+                    <th>Created On</th>
+                    <th>Actions</th>
 
 
                 </tr>
@@ -57,8 +57,8 @@ $ips = \LeadMax\TrackYourStats\System\IPBlackList::selectIPs()->fetchAll(PDO::FE
                     echo "<td>" . long2ip($ip->start) . "</td>";
                     echo "<td>" . long2ip($ip->end) . "</td>";
                     echo "<td>" . \Carbon\Carbon::createFromFormat("U", $ip->timestamp)->toFormattedDateString() . "</td>";
-                    echo "<td><a href='edit_blacklisted_ip.php?id={$ip->id}' class='btn btn-default btn-sm'>Edit</a></td>";
-                    echo "<td><a href='javascript:void(0);' onclick='isufosho({$ip->id});' class='btn btn-default btn-sm'>Delete</a></td>";
+                    echo "<td><a href='edit_blacklisted_ip.php?id={$ip->id}' class='btn'>Edit</a></td>";
+                    echo "<td><a href='javascript:void(0);' onclick='isufosho({$ip->id});' class='btn'>Delete</a></td>";
                     echo "</tr>";
                 }
 

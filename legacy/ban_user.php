@@ -69,7 +69,7 @@ $user = \LeadMax\TrackYourStats\User\User::SelectOne($userId);
 			<span class = "lft">Ban <?= $user->user_name ?></span>
 		</div>
 		
-		<div class = "white_box value_span8">
+		<div class = "content_box value_span8">
 			
 			<form action = "ban_user.php" method = "post" enctype = "multipart/form-data">
 				

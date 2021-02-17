@@ -49,7 +49,7 @@ if (isset($_POST["submit"])) {
                     class="lft">Add Referral for <?php echo $report->selectedAffiliate->user_name ?></span>
         </div>
 
-        <div class="white_box value_span8 ">
+        <div class="content_box value_span8 ">
 
             <!-- LEFT CON -->
             <div class="left_con01 ">

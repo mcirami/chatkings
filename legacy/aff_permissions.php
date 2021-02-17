@@ -41,11 +41,11 @@ if (isset($_POST["button"]))
 			<span class = "btn_yellow"> <input type = "submit" name = "button" class = "value_span6-2 value_span2 value_span1-2" value = "Save"/></span>
 			
 			<div class = "clear"></div>
-			<div class = "white_box_x_scroll white_box manage_aff large_table value_span8  ">
-				<table class = "table table-bordered table_01 tablesorter" id = "mainTable">
+			<div class = "white_box_x_scroll content_box manage_aff large_table value_span8  ">
+				<table class = "table table_01 tablesorter" id = "mainTable">
 					<thead>
 					
-					<tr>
+					<tr class="value_span2-4 value_span5">
 						<th class = "value_span9">ID</th>
 						<th class = "value_span9">User Name</th>
 						<?php

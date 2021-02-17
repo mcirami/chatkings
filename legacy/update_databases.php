@@ -25,7 +25,7 @@ dump($companyUpdater->updateCompanies());
 		
 		
 		<div class = "clear"></div>
-		<div class = "white_box manage_aff  value_span8">
+		<div class = "content_box manage_aff  value_span8">
 		
 		
 		</div>

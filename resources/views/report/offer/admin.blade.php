@@ -9,20 +9,20 @@
 @endsection
 
 @section('table')
-    <table class="table table-bordered table_01 tablesorter" id="mainTable">
+    <table class="table table_01 tablesorter" id="mainTable">
         <thead>
 
-        <tr>
-            <th class="value_span9">Offer ID</th>
-            <th class="value_span9">Offer Name</th>
-            <th class="value_span9">Raw</th>
-            <th class="value_span9">Unique</th>
-            <th class="value_span9">Free Sign Ups</th>
-            <th class="value_span9">Pending Conversion</th>
-            <th class="value_span9">Conversion</th>
-            <th class="value_span9">Revenue</th>
-            <th class="value_span9">Deductions</th>
-            <th class="value_span9">EPC</th>
+        <tr class="value_span10-1">
+            <th>Offer ID</th>
+            <th>Offer Name</th>
+            <th>Raw</th>
+            <th>Unique</th>
+            <th>Free Sign Ups</th>
+            <th>Pending Conversion</th>
+            <th>Conversion</th>
+            <th>Revenue</th>
+            <th>Deductions</th>
+            <th>EPC</th>
 
 
         </tr>

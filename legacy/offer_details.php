@@ -20,7 +20,7 @@ if (isset($_GET['idoffer']))
 	<div class = "right_panel">
 	<div class = "white_box_outer">
 		<div class = "heading_holder value_span9"><span class = "lft">Offer <?php echo $_GET['idoffer']; ?>  </span></div>
-		<div class = "white_box value_span8">
+		<div class = "content_box value_span8">
 			
 			
 			<div class = "left_con01">
@@ -74,7 +74,7 @@ if (isset($_GET['idoffer']))
 				if (\LeadMax\TrackYourStats\System\Session::userType() != \App\Privilege::ROLE_AFFILIATE && \LeadMax\TrackYourStats\System\Session::userType() != \App\Privilege::ROLE_UNKNOWN)
 				{
 					
-					echo "<p><label for=\"affiliateOwner\"> Assigned To</label>
+					echo "<p><label class=\"value_span10\" for=\"affiliateOwner\"> Assigned To</label>
 
 
                         <select multiple class=\"form-control input-sm\">";

@@ -9,7 +9,7 @@
 @endsection
 
 @section('table')
-    <table class="table table-bordered table_01 tablesorter" id="mainTable">
+    <table class="table table_01 tablesorter" id="mainTable">
         <thead>
         <tr>
             <th class="value_span9">User ID</th>

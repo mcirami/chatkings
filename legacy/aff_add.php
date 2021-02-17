@@ -70,14 +70,14 @@ switch ($result)
     <div class = "heading_holder value_span9"><span
           class = "lft"> Create New User</span></div>
 
-    <div class = "white_box value_span8">
+    <div class = "content_box value_span8">
       <span class = "small_txt value_span10"><?PHP echo $error; ?></span>
 
       <form action = "<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>" method = "post" id = "form"
             class = "form-horizontal" enctype = "multipart/form-data">
 
         <div class="column_wrap">
-          <div class = "left_con01 value_span7">
+          <div class = "left_con01">
             <h3>User Details</h3>
             <p>
               <label class = "value_span9">First Name</label>
@@ -136,7 +136,7 @@ switch ($result)
             </p> 
 -->
           </div><!-- left_con01 -->
-          <div class = "right_con01 value_span7">
+          <div class = "right_con01">
             <h3>Account Details</h3>
             <p>
               <label class = "value_span9">Username</label>
@@ -222,10 +222,10 @@ switch ($result)
         </div><!-- column_wrap -->
         <div class="button_wrap">
             <span class = "btn_yellow"> <input type = "submit" name = "button"
-                                               class = "value_span6-2 value_span2 value_span1-2"
+                                               class = "value_span6-2 value_span2 value_span11-2"
                                                value = "Create User"/></span>
           <span class = "btn_yellow" style = "margin-left:2%;"> <a onclick = "history.go(-1);"
-                                                                   class = "value_span6-2 value_span2 value_span1-2"
+                                                                   class = "value_span6-2 value_span2 value_span11-2"
             >Cancel</a></span>
           <p>
         </div>

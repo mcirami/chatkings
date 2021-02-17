@@ -53,13 +53,13 @@ if ($assignType == 0) {
     <div class="right_panel">
         <div class="white_box_outer">
             <div class="heading_holder value_span9"><span class="lft">Create New Offer</span></div>
-            <div class="white_box value_span8">
+            <div class="content_box value_span8">
 
                 <form action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" id="form"
                       enctype="multipart/form-data">
 
                   <div class="column_wrap">
-                    <div class="left_con01 value_span7">
+                    <div class="left_con01">
                         <p>
                             <label class="value_span9">Name</label>
                             <input id="offer_name" name="offer_name" type="text" value="<?= $assign->name; ?>"
@@ -174,7 +174,7 @@ if ($assignType == 0) {
                         </p>
                     </div><!-- left_con01 -->
 
-                    <div class="right_con01 value_span7">
+                    <div class="right_con01">
                         <p>
                             <label class="value_span9">Agent Payout</label>
 
@@ -304,7 +304,7 @@ if ($assignType == 0) {
                             <input class="fixCheckBox" type="checkbox" id="enable_bonus_offer"
                                    name="enable_bonus_offer"> Enable
                         <p id="bonus_offer_div" style="display:none;">
-                            <label for="required_sales">Required Sales:</label>
+                            <label class="value_span10" for="required_sales">Required Sales:</label>
                             <input type="number" name="required_sales" id="required_sales" value="0"
                                    style="width:100px" disabled>
                         </p>
@@ -340,7 +340,7 @@ if ($assignType == 0) {
                         </p>
                     </div>
                   </div><!-- column_wrap -->
-                  <span class="btn_yellow"> <input type="submit" name="button" class="value_span6-2 value_span2 value_span1-2"
+                  <span class="btn_yellow"> <input type="submit" name="button" class="value_span6-2 value_span2 value_span11-2"
                                                    value="Create" onclick="return selectAll();"/></span>
                 </form>
             </div>

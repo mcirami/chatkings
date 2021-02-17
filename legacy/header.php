@@ -105,7 +105,7 @@ $navBar = new \LeadMax\TrackYourStats\System\NavBar(\LeadMax\TrackYourStats\Syst
     </nav>
 </header>
 
-<div class="top_sec value_span1">
+<div class="top_sec value_span1 value_span5-2">
     <div class="logo">
         <a href="<?php echo $webroot; ?>"><img
                     src="<?php echo $webroot . \LeadMax\TrackYourStats\System\Company::loadFromSession()->getImgDir(); ?>/logo.png"
@@ -114,17 +114,11 @@ $navBar = new \LeadMax\TrackYourStats\System\NavBar(\LeadMax\TrackYourStats\Syst
     </div>
 
 
-  <ul class="main_menu">
 
-      <?php
-      $navBar->printNav();
-      ?>
-
-  </ul>
     <div class="header_right">
         <div class="logout">
             <?php
-            echo "<a class=\"value_span11 value_span2 value_span4\" href=\"logout.php\">Logout</a>";
+            echo "<a class=\"value_span6-1 value_span2 value_span1-2\" href=\"logout.php\">Logout</a>";
 
             ?>
 
@@ -136,8 +130,15 @@ $navBar = new \LeadMax\TrackYourStats\System\NavBar(\LeadMax\TrackYourStats\Syst
 <div class="panels_wrap">
 
     <div class="left_panel value_span3">
+      <ul class="main_menu">
 
-      <ul>
+          <?php
+          $navBar->printNav();
+          ?>
+
+      </ul>
+
+      <!--<ul>
         <li>
           <h2 class="label value_span2">Name</h2>
           <h3 class="value_span5 username"><?php echo \LeadMax\TrackYourStats\System\Session::userData()->first_name; ?> <?php echo \LeadMax\TrackYourStats\System\Session::userData()->last_name; ?></h3>
@@ -165,7 +166,7 @@ $navBar = new \LeadMax\TrackYourStats\System\NavBar(\LeadMax\TrackYourStats\Syst
           <h2 class="label value_span2">Password</h2>
           <a href="{{$webroot}}aff_update.php?idrep={{$userId}}" class="value_span5 username">Change Password</a>
         </li>
-      </ul>
+      </ul>-->
 
     </div><!--left_panel-->
 

@@ -33,15 +33,15 @@ $urls = $offerURLs->getOfferUrls()->fetchAll(PDO::FETCH_ASSOC);
 		
 		</div>
 		
-		<div class = "white_box_x_scroll white_box manage_aff large_table value_span8 ">
-			<table class = "table table-bordered table_01" id = "mainTable">
+		<div class = "white_box_x_scroll content_box manage_aff large_table value_span8 ">
+			<table class = "table table_01" id = "mainTable">
 				<thead>
 				
-				<tr>
-					<th class = "value_span9">Offer URL</th>
-					<th class = "value_span9">Status</th>
-					<th class = "value_span9">Created On</th>
-					<th class = "value_span9">Actions</th>
+				<tr class="value_span10-1">
+					<th>Offer URL</th>
+					<th>Status</th>
+					<th>Created On</th>
+					<th>Actions</th>
 				
 				
 				</tr>
@@ -65,7 +65,7 @@ $urls = $offerURLs->getOfferUrls()->fetchAll(PDO::FETCH_ASSOC);
 					echo "<td>" . \Carbon\Carbon::createFromFormat("Y-m-d H:i:s", $url["timestamp"])->toFormattedDateString() . "</td>";
 					
 					echo "<td>";
-					echo "<a class='btn btn-default btn-sm' href='edit_offer_url.php?id={$url["id"]}'>Edit</a>";
+					echo "<a class='btn' href='edit_offer_url.php?id={$url["id"]}'>Edit</a>";
 					echo "</td>";
 					echo "</tr>";
 				}

@@ -76,7 +76,7 @@ $update->dumpPermissionsToJavascript();
 		<div class = "heading_holder value_span9"><span
 					class = "lft">Edit User <?php echo $update->selectedUser->first_name . " " . $update->selectedUser->last_name; ?></span>
 		</div>
-		<div class = "white_box value_span8">
+		<div class = "content_box value_span8">
 			<span class = "small_txt value_span10"><?PHP echo $error; ?></span>
 			
 			<form action = "<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>" method = "post" id = "form"
@@ -272,12 +272,12 @@ $update->dumpPermissionsToJavascript();
 
         <div class=\"white_box_outer\">
 
-            <div class=\"white_box manage_aff value_span8\">
+            <div class=\"content_box manage_aff value_span8\">
                 <p>
                 <table class=\"table_01   large_table\" id=\"mainTable\">
                     <thead>
 
-                    <tr>
+                    <tr class=\"value_span2-4\">
 
                         <th class=\"value_span9\">Offer ID</th>
                         <th class=\"value_span9\">Offer Name</th>

@@ -40,18 +40,18 @@ $result = $clickSearcher->clickData()->fetchAll(PDO::FETCH_ASSOC);
 		
 		
 		<div class = "form-group">
-			<label for = "encodedClickId">Click ID</label>
-			<input value = "<?= ($originalClickId !== 0) ? $originalClickId : "" ?>" class = "form-control" style = "width:250px" type = "text" name = "clickId" id = "clickId" placeholder = "Encoded or decoded...">
+			<label style="width: 100%;" class="value_span10" for="encodedClickId">Click ID</label>
+			<input value = "<?= ($originalClickId !== 0) ? $originalClickId : "" ?>" class = "form-control" style = "width:250px; display: inline-block;" type = "text" name = "clickId" id = "clickId" placeholder = "Encoded or decoded...">
 			<button onclick = "search()" class = "btn btn-default btn-sm" style = "margin-top: 5px;">Search</button>
 		</div>
 		
 		
 		<div class = "clear"></div>
-		<div class = "white_box manage_aff large_table value_span8">
-			<table class = "table table-bordered table-striped table_01 tablesorter" id = "mainTable">
+		<div class = "content_box manage_aff large_table value_span8">
+			<table class = "table table-striped table_01 tablesorter" id = "mainTable">
 				<thead>
 				
-				<tr>
+				<tr class="value_span10-1">
 					<td>ClickId</td>
 					<td>Timestamp</td>
 					<td>UserId</td>
@@ -75,10 +75,10 @@ $result = $clickSearcher->clickData()->fetchAll(PDO::FETCH_ASSOC);
 			<div style = "margin-top:20px;"></div>
 			
 			<label>Geo Data</label>
-			<table class = "table table-bordered table-striped table_01 tablesorter" id = "mainTable">
+			<table class = "table table-striped table_01 tablesorter" id = "mainTable">
 				<thead>
 				
-				<tr>
+				<tr class="value_span2-4">
 					<td>ISO Code</td>
 					<td>Sub Division</td>
 					<td>City</td>
@@ -112,10 +112,10 @@ $result = $clickSearcher->clickData()->fetchAll(PDO::FETCH_ASSOC);
 			<div style = "margin-top:20px;"></div>
 			
 			<label>Stored Query String</label>
-			<table class = "table table-bordered table-striped table_01 tablesorter" id = "mainTable">
+			<table class = "table table-striped table_01 tablesorter" id = "mainTable">
 				<thead>
 				
-				<tr>
+				<tr class="value_span2-4">
 					<td>Url</td>
 					<?php
 					for ($i = 1; $i <= 5; $i++)
@@ -144,10 +144,10 @@ $result = $clickSearcher->clickData()->fetchAll(PDO::FETCH_ASSOC);
 			<div style = "margin-top:20px;"></div>
 			
 			<label>Conversion Data</label>
-			<table class = "table table-bordered table-striped table_01 tablesorter" id = "mainTable">
+			<table class = "table table-striped table_01 tablesorter" id = "mainTable">
 				<thead>
 				
-				<tr>
+				<tr class="value_span2-4">
 					<td>Conversion Id</td>
 					<td>Timestamp</td>
 					<td>Paid</td>

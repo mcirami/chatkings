@@ -1,5 +1,5 @@
 <div class="rows_select">
-    <label for="rpp">Rows Per Page:</label>
+    <label class="value_span10" for="rpp">Rows Per Page:</label>
     <select class="selectBoxTheme" id="rpp" name="rpp"
             onchange="if(this.value !== 'Custom') window.location= '/{{request()->path() . '?' . http_build_query(request()->except(['page','rpp']))}}&rpp='+ this.value + '&page=1'">
 

@@ -2,10 +2,10 @@
 @section('content')
 
     <!--right_panel-->
-    <div class="right_panel" id="root">
+    <div class="right_panel value_span7" id="root">
         <div class="white_box_outer">
             <div class="heading_holder value_span9"><span class="lft">Add Sale</span></div>
-            <div class="white_box value_span8">
+            <div class="content_box value_span8">
 
                 <form action="/sales/add" method="post" id="form" enctype="multipart/form-data">
                     {{csrf_field()}}
@@ -33,7 +33,7 @@
 
 
                         <span class="btn_yellow"> <input type="submit" name="button"
-                                                         class="value_span6-2 value_span2 value_span1-2"
+                                                         class="value_span6-2 value_span2 value_span11-2"
                                                          value="Create Sale"/></span>
 
                     </div>

@@ -18,7 +18,7 @@ if (isset($_GET['idrep'])) {
 <div class="right_panel">
     <div class="white_box_outer">
         <div class="heading_holder value_span9"><span class="lft"> <?php echo $rows->first_name . " " . $rows->last_name; ?>  </span></div>
-        <div class="white_box value_span8">
+        <div class="content_box value_span8">
 
 
             <div class="left_con01">

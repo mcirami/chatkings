@@ -56,7 +56,7 @@ if ($result)
 	<div class = "right_panel">
 		<div class = "white_box_outer">
 			<div class = "heading_holder value_span9"><span class = "lft">Create Notification</span></div>
-			<div class = "white_box value_span8">
+			<div class = "content_box value_span8">
 				
 				<form action = "<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>" method = "post" id = "form"
 					  enctype = "multipart/form-data">
@@ -82,8 +82,8 @@ if ($result)
 						
 						<label>Recipients:</label>
 						<button class = "btn btn-sm btn-default btn-sm-margin-bot" onclick = "clickCheckBoxesInTable('recipients'); return false;">Move All</button>
-						<table id = "recipients" class = "table table-sm table-bordered table_01 tablersorter" style="min-width:150px;">
-							<thead>
+						<table id = "recipients" class = "table table-sm table_01 tablersorter" style="min-width:150px;">
+							<thead class="value_span2-4">
 							<tr>
 								<th>User</th>
 								<th>Type</th>
@@ -113,7 +113,7 @@ if ($result)
 						</div>
 						
 						<button class = "btn btn-sm btn-default btn-sm-margin-bot" onclick = "clickCheckBoxesInTable('mainTable'); return false;">Move All</button>
-						<table id = "mainTable" class = " table  verySmallTable table-bordered table_01 tablesorter" style = "min-width:200px; !important;">
+						<table id = "mainTable" class = " table  verySmallTable table_01 tablesorter" style = "min-width:200px; !important;">
 							<thead>
 							<tr>
 								<th>User</th>

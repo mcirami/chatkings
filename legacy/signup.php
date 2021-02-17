@@ -62,7 +62,7 @@ $webroot = getWebRoot();
 
 <style>
 	
-	.white_box {
+	.content_box {
 		
 		margin-top: 40px;
 	}
@@ -101,7 +101,7 @@ $webroot = getWebRoot();
 <div class = "white_box_outer">
 	
 	<div class = "clear"></div>
-	<div class = "white_box value_span8">
+	<div class = "content_box value_span8">
 		<div class = "com_acc">
 			
 			<form action = "/" id = "signUpForm">
@@ -176,7 +176,7 @@ $webroot = getWebRoot();
 				
 				</div>
 			</form>
-		</div><!-- white_box -->
+		</div><!-- content_box -->
 	</div><!-- white_box_outer -->
 	<script type = "text/javascript">
 		

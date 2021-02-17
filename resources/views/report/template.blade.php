@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
     <!--right_panel-->
-    <div class="right_panel">
+    <div class="right_panel value_span7">
         <div class="white_box_outer large_table">
             <div class="heading_holder">
                 <span class="lft value_span9"> @yield('report-title')</span>
@@ -14,7 +14,7 @@
 
 
             <div class="clear"></div>
-            <div class="white_box manage_aff large_table value_span8">
+            <div class="content_box manage_aff large_table value_span8">
                 @yield('table')
             </div>
 

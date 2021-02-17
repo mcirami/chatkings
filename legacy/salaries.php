@@ -81,8 +81,8 @@ if (!empty($userList))
             <?php } ?>
 
             <div class="clear"></div>
-            <div class="white_box manage_aff large_table value_span8">
-                <table class="table table-bordered table_01 table-sm " id="mainTable">
+            <div class="content_box manage_aff large_table value_span8">
+                <table class="table table_01 table-sm " id="mainTable">
                     <thead>
                     <tr>
                         <td>Affiliate Name</td>

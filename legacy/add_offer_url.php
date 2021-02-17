@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
 
         </div>
 
-        <div class="white_box_x_scroll white_box  value_span8 ">
+        <div class="white_box_x_scroll content_box  value_span8 ">
             <div class="left_con01">
 
                 <div class="" style="margin-bottom:20px">
@@ -42,12 +42,12 @@ if (isset($_POST['submit'])) {
 
                 <form action="add_offer_url.php" method="post">
                     <p>
-                        <label for="url">URL:</label>
+                        <label class="value_span10" for="url">URL:</label>
                         <input type="text" name="url" value="">
                     </p>
 
                     <p>
-                        <label for="status">Status:</label>
+                        <label class="value_span10" for="status">Status:</label>
                         <select name="status">
                             <?php
 

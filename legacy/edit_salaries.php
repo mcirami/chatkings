@@ -27,8 +27,8 @@ $salaries->fetchAffiliateSalaries();
         <form action="salaries.php" method="post">
 
 
-            <div class="white_box value_span8">
-                <table class="table table-bordered table_01 table-sm ">
+            <div class="content_box value_span8">
+                <table class="table table_01 table-sm ">
                     <thead>
                     <tr>
                         <td>Affiliate Name</td>
@@ -58,13 +58,13 @@ $salaries->fetchAffiliateSalaries();
                             {
                                 $carboned = \Carbon\Carbon::createFromFormat("U", $user["last_update"])->diffForHumans();
                                 echo "<td>{$carboned}</td>";
-                                echo "<td><a class='btn btn-default btn-sm' href='/user/{$user["idrep"]}/salary/update'>Edit</a></td>";
+                                echo "<td><a class='btn' href='/user/{$user["idrep"]}/salary/update'>Edit</a></td>";
 
                             }
                             else
                             {
                                 echo "<td></td>";
-                                echo "<td><a class='btn btn-default btn-sm' href='/user/{$user["idrep"]}/salary/create'>Create</a></td>";
+                                echo "<td><a class='btn' href='/user/{$user["idrep"]}/salary/create'>Create</a></td>";
 
                             }
 

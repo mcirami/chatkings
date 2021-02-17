@@ -66,12 +66,12 @@ $report = new \LeadMax\TrackYourStats\User\Referrals($affid);
 					class = "lft"><?php echo $report->selectedAffiliate->user_name ?>'s Referrals</span>
 		</div>
 		
-		<div class = "white_box value_span8 ">
+		<div class = "content_box value_span8 ">
 			
 			<!-- LEFT CON -->
 			<div class = "left_con01 ">
 				<a class = "btn btn-default btn-sm" style = "margin-bottom: 5px;" href = "/add_referral.php?id=<?= $affid ?>"><img src = "images/icons/add.png">Add Referral for <?= $report->selectedAffiliate->user_name ?></a>
-				<table id = "referralTable" class = " table table-bordered table-stripped table_01" style = "min-width:500px !important;">
+				<table id = "referralTable" class = " table table-stripped table_01" style = "min-width:500px !important;">
 					
 					<?php
 					$report->printReferrersToTable();

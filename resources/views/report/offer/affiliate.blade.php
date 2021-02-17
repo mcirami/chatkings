@@ -9,7 +9,7 @@
 @endsection
 
 @section('table')
-    <table class="table table-bordered table-striped table_01 tablesorter" id="mainTable">
+    <table class="table table-striped table_01 tablesorter" id="mainTable">
         <thead>
         <tr>
             <th class="value_span9">Offer ID</th>
@@ -44,7 +44,7 @@
         </tbody>
     </table>
     @if($report->bonuses)
-        <table class="table table-bordered table_01">
+        <table class="table table_01">
             <thead>
             <tr>
                 <td>Bonus Name</td>

@@ -1,14 +1,14 @@
 @extends('layouts.master')
 @section('content')
 
-    <div class="right_panel">
+    <div class="right_panel value_span7">
         <div class="white_box_outer">
 
             <div class="heading_holder value_span9">
                 <span class="lft">Add SMS Client </span>
             </div>
 
-            <div class="white_box value_span8">
+            <div class="content_box value_span8">
 
 
                 <form action="/sms/client/create" method="post">
@@ -16,7 +16,7 @@
 
 
                     <div class="form-group">
-                        <label for="user_id">Affiliate:</label>
+                        <label class="value_span10" for="user_id">Affiliate:</label>
                         <select class="form-control" name="user_id" id="user_id" style="width:200px;">
                             @foreach($users as $user)
                                 <option value="{{$user->idrep}}">{{$user->user_name}}</option>
@@ -28,7 +28,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="phoneNumber">Service Phone Number:</label>
+                        <label class="value_span10" for="phoneNumber">Service Phone Number:</label>
                         <input class="form-control" type="text" name="phoneNumber" id="phoneNumber"
                                style="width:200px;">
                     </div>

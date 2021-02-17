@@ -51,11 +51,11 @@ $report = new \User\Referrals($affid);
                 class="lft"><?php echo $report->selectedAffiliate->user_name ?>'s Referrals</span>
         </div>
 
-        <div class="white_box value_span8">
+        <div class="content_box value_span8">
 
             <!-- LEFT CON -->
             <div class="left_con01">
-                <table id="referralTable" class="table_01 table table-bordered table-stripped">
+                <table id="referralTable" class="table_01 table table-stripped">
 
                     <?php
                     $report->printReferrersToTable();

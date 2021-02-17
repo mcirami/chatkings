@@ -31,13 +31,13 @@ if(isset($_POST["offer_name"]))
 <div class="right_panel">
     <div class="white_box_outer">
         <div class="heading_holder value_span9"><span class="lft">Create Advertiser </span></div>
-        <div class="white_box value_span8">
+        <div class="content_box value_span8">
 
             <form action="campaign_create.php" method="post" id="form"
                   enctype="multipart/form-data">
 
 
-                <div class="left_con01 value_span7" style="width: 100%;">
+                <div class="left_con01" style="width: 100%;">
                     <p>
                         <label class="value_span9">Name</label>
                         <input id="offer_name" name="offer_name" type="text" value=""
@@ -69,7 +69,7 @@ if(isset($_POST["offer_name"]))
 <!--                        </select>-->
 <!--                    </p>-->
                 </div>
-              <span class="btn_yellow"> <input type="submit" name="button" class="value_span6-2 value_span2 value_span1-2"
+              <span class="btn_yellow"> <input type="submit" name="button" class="value_span6-2 value_span2 value_span11-2"
                                                value="Create" onclick="return selectAllMultiSelect('assigned');"/></span>
         </div>
 

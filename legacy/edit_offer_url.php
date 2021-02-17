@@ -40,18 +40,18 @@ $url = $URLs->selectOne($id,\LeadMax\TrackYourStats\System\Company::loadFromSess
 
         </div>
 
-        <div class="white_box_x_scroll white_box  value_span8 ">
+        <div class="white_box_x_scroll content_box  value_span8 ">
             <div class="left_con01">
 
 
                 <form action="edit_offer_url.php?id=<?=$get->id?>" method="post">
                     <p>
-                        <label for="url">URL:</label>
+                        <label class="value_span10" for="url">URL:</label>
                         <input type="text" name="url" value="<?= $url->url ?>">
                     </p>
 
                     <p>
-                        <label for="status">Status:</label>
+                        <label class="value_span10" for="status">Status:</label>
                         <select name="status">
                             <?php
 
@@ -67,7 +67,7 @@ $url = $URLs->selectOne($id,\LeadMax\TrackYourStats\System\Company::loadFromSess
                     </p>
 
                     <p>
-                        <label for="timestamp">Timestamp:</label>
+                        <label class="value_span10" for="timestamp">Timestamp:</label>
                         <?php echo \Carbon\Carbon::createFromFormat("Y-m-d H:i:s", $url->timestamp)->toFormattedDateString() ?>
                     </p>
 

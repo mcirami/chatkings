@@ -35,7 +35,7 @@
         <span>{{$dates['originalStart']}} - {{$dates['originalEnd']}}</span>
     </div>
 
-    <table class="table table-sm table-bordered ">
+    <table class="table table-sm">
         <thead>
         <tr>
             <th class="value_span9">Payout Type</th>
@@ -53,7 +53,7 @@
         </tbody>
     </table>
 
-    <table class="table  table-bordered table-sm ">
+    <table class="table table-sm ">
         <thead>
         <tr>
             <th>ID</th>

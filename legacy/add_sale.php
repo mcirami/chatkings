@@ -55,7 +55,7 @@ if (isset($_POST["affiliate"])) {
 <div class="right_panel">
     <div class="white_box_outer">
         <div class="heading_holder value_span9"><span class="lft">Add Sale</span></div>
-        <div class="white_box value_span8">
+        <div class="content_box value_span8">
 
             <form action="add_sale.php" method="post" id="form" enctype="multipart/form-data">
 
@@ -114,7 +114,7 @@ if (isset($_POST["affiliate"])) {
                     <span class="small_txt value_span10">Note: Make sure the affiliate has the offer, or else it won't create sale.</span>
                 </div>
         </div>
-        <span class="btn_yellow"> <input type="submit" name="button" class="value_span6-2 value_span2 value_span1-2"
+        <span class="btn_yellow"> <input type="submit" name="button" class="value_span6-2 value_span2 value_span11-2"
                                          value="Create Sale"/></span>
     </div>
 </div>

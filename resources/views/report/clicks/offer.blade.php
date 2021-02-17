@@ -9,7 +9,7 @@
 @endsection
 
 @section('table')
-    <table id="reps" class="table table-striped table-bordered table-condensed table_01 ">
+    <table id="reps" class="table table-striped table-condensed table_01 ">
         <thead>
         <tr>
             <th class="value_span9">Affiliate ID</th>
@@ -31,9 +31,9 @@
     </table>
 
     </div>
-    <div class="white_box_x_scroll white_box manage_aff large_table value_span8  one_hungee_table"
+    <div class="white_box_x_scroll content_box manage_aff large_table value_span8  one_hungee_table"
          style="width:100%;!important;">
-        <table id="clicks" class="table table-striped table-bordered table_01">
+        <table id="clicks" class="table table-striped table_01">
             <thead>
             <tr>
                 @if (\LeadMax\TrackYourStats\System\Session::permissions()->can("view_fraud_data"))

@@ -107,7 +107,7 @@ else
   <div class="left_column">
 
   </div>
-  <div class = "white_box value_span8 right_column">
+  <div class = "content_box value_span8 right_column">
     <div class = "com_acc">
       <div class = "logo">
         <a href = "<?php echo $webroot ?>"><img src = "<?= \LeadMax\TrackYourStats\System\Company::loadFromSession()->getImgDir() ?>/logo.png" alt = "<?php echo\LeadMax\TrackYourStats\System\Company::loadFromSession()->getShortHand(); ?>"
@@ -155,7 +155,7 @@ else
           <br/>
         </div>
       </form>
-    </div><!-- white_box -->
+    </div><!-- content_box -->
   </div><!-- white_box_outer -->
 
 <?php include 'footer.php'; ?>

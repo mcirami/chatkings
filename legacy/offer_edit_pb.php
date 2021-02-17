@@ -51,7 +51,7 @@ if (post("button"))
 			<div class = "clear"></div>
 			<form action = "<?= parse_url($_SERVER["REQUEST_URI"])["path"] . "?offid=" . $offid ?>" method = "POST">
 				
-				<div class = "white_box value_span8">
+				<div class = "content_box value_span8">
 					
 					<div class = "left_con01">
 						

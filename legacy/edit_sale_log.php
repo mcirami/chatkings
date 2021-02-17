@@ -41,7 +41,7 @@ $offer = \LeadMax\TrackYourStats\Offer\Offer::selectOneQuery($click->offer_idoff
 <div class = "right_panel">
 	<div class = "white_box_outer">
 		<div class = "heading_holder value_span9"><span class = "lft">Log Sale for '<?= $offer->offer_name ?>'</span></div>
-		<div class = "white_box value_span8">
+		<div class = "content_box value_span8">
 			
 			<form action = "log_sale.php?cid=<?= $conversion_id ?>" method = "post" id = "form"
 				  enctype = "multipart/form-data">

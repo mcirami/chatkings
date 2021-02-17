@@ -9,7 +9,7 @@
 @endsection
 
 @section('table')
-    <table id="clicks" class="table table-condensed table-bordered table_01">
+    <table id="clicks" class="table table-condensed table_01">
         <thead>
         <tr>
             @if (\LeadMax\TrackYourStats\System\Session::permissions()->can("view_fraud_data"))

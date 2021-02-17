@@ -8,7 +8,7 @@
     Payout Report
 @endsection
 @section('table')
-    <table class="table table-striped table-bordered  table_01">
+    <table class="table table-striped table_01">
         <thead>
         <tr>
             <th class="value_span9">Payout Type</th>
@@ -29,8 +29,8 @@
 @section('extra')
     <div id="apptwo">
 
-        <div class="white_box manage_aff large_table value_span8">
-            <table class="table table-striped table-bordered  table_01">
+        <div class="content_box manage_aff large_table value_span8">
+            <table class="table table-striped table_01">
                 <thead>
                 <tr>
                     <th>Week range</th>
@@ -94,7 +94,7 @@
                             <td>
                             </td>
                             <td>
-                                <table class="table table-sm table-striped table-bordered  table_01">
+                                <table class="table table-sm table-striped table_01">
                                     <thead>
                                     <tr>
                                         <th class="value_span9">ID</th>

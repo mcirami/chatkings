@@ -21,12 +21,12 @@ $selectedCampaigns = $campaigns->selectCampaigns()->fetchAll(PDO::FETCH_OBJ);
     <div class="white_box_outer">
         <div class="heading_holder value_span9"><span class="lft"> Advertisers</span></div>
 
-        <div class="white_box manage_aff white_box_x_scroll large_table value_span8">
+        <div class="content_box manage_aff white_box_x_scroll large_table value_span8">
 
 
-            <table class="table table-condensed table-bordered table_01" id="mainTable">
+            <table class="table table-condensed table_01" id="mainTable">
                 <thead>
-                <tr>
+                <tr class="value_span10-1">
                     <td>ID</td>
                     <td>Name</td>
                     <td>Actions</td>
@@ -39,7 +39,7 @@ $selectedCampaigns = $campaigns->selectCampaigns()->fetchAll(PDO::FETCH_OBJ);
                         echo "<tr>";
                             echo "<td>$campaign->id</td>";
                             echo "<td>$campaign->name</td>";
-                            echo "<td><a class='btn btn-default btn-sm' href='campaign_edit.php?id=$campaign->id'>Edit</a></td>";
+                            echo "<td><a class='btn' href='campaign_edit.php?id=$campaign->id'>Edit</a></td>";
                         echo "</tr>";
                     }
 

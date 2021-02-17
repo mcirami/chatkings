@@ -46,7 +46,7 @@ if(isset($_POST["id"]))
         <form action="edit_salary.php?id=<?=$id?>" method="post">
 
 
-            <div class="white_box value_span8">
+            <div class="content_box value_span8">
                 <div class="left_con01">
                     <input type="hidden" name="id" value="<?=$id?>">
 

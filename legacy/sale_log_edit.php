@@ -37,7 +37,7 @@ $images = \Offer\SaleLog::getImageURLsFromSaleId($saleLogId);
 <div class = "right_panel">
 	<div class = "white_box_outer">
 		<div class = "heading_holder value_span9"><span class = "lft">View Sale Log</span></div>
-		<div class = "white_box value_span8">
+		<div class = "content_box value_span8">
 			
 			
 				<?php

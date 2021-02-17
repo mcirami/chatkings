@@ -2,13 +2,13 @@
 
 @section('content')
     <!--right_panel-->
-    <div class="right_panel">
+    <div class="right_panel value_span7">
         <div class="white_box_outer large_table">
             <div class="heading_holder">
                 <span class="lft value_span9">Offers</span>
                 @if (\LeadMax\TrackYourStats\System\Session::permissions()->can("create_offers"))
-                    <a style='margin-left: 1%; margin-top:.3%;' href="/offer_add.php"
-                       class='btn btn-default btn-sm value_span5-1 value_span6-5 value_span2'>Create New Offer</a>
+                    <a href="/offer_add.php"
+                       class='btn value_span5-1 value_span6-5 value_span2'>Create New Offer</a>
                 @endif
             </div>
 
@@ -63,38 +63,38 @@
             </div>
 
             <div class="clear"></div>
-            <div class="white_box manage_aff white_box_x_scroll large_table value_span8">
+            <div class="content_box manage_aff white_box_x_scroll large_table value_span8">
 
 
-                <table class="table table-condensed table-bordered table_01" id="mainTable">
+                <table class="table table-condensed table_01" id="mainTable">
                     <thead>
 
-                    <tr>
-                        <th class="value_span9">Offer ID</th>
-                        <th class="value_span9">Offer Name</th>
-                        <th class="value_span9">Offer Type</th>
+                    <tr class="value_span10-1">
+                        <th>Offer ID</th>
+                        <th>Offer Name</th>
+                        <th>Offer Type</th>
 
                         @if (\LeadMax\TrackYourStats\System\Session::userType() == \App\Privilege::ROLE_AFFILIATE)
-                            <th class="value_span9">Offer URL</th>
+                            <th>Offer URL</th>
                         @elseif(\LeadMax\TrackYourStats\System\Session::permissions()->can("create_offers"))
-                            <th class="value_span9">Affiliate Access</th>
+                            <th >Affiliate Access</th>
                         @endif
 
 
                         @if (\LeadMax\TrackYourStats\System\Session::userType() !== \App\Privilege::ROLE_MANAGER)
-                            <th class="value_span8">Payout</th>
+                            <th>Payout</th>
                         @endif
 
-                        <th class="value_span9">Status</th>
+                        <th>Status</th>
                         @if (\LeadMax\TrackYourStats\System\Session::userType() == \App\Privilege::ROLE_AFFILIATE)
-                            <th class="value_span9">Postback Options</th>
+                            <th>Postback Options</th>
                         @endif
 
                         @if (\LeadMax\TrackYourStats\System\Session::userType() != \App\Privilege::ROLE_AFFILIATE)
-                            <th class="value_span9">Offer Timestamp</th>
+                            <th>Offer Timestamp</th>
                         @endif
 
-                        <th class="value_span9">Actions</th>
+                        <th>Actions</th>
                     </tr>
                     </thead>
                     <tbody>

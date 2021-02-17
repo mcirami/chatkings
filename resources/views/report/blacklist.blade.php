@@ -9,12 +9,12 @@
 @endsection
 
 @section('table')
-    <table class="table table-bordered table-striped table_01 tablesorter" id="mainTable">
+    <table class="table table-striped table_01 tablesorter" id="mainTable">
         <thead>
-        <tr>
-            <th class="value_span9">Aff ID</th>
-            <th class="value_span9">Affiliate</th>
-            <th class="value_span9">Clicks</th>
+        <tr class="value_span10-1">
+            <th>Aff ID</th>
+            <th>Affiliate</th>
+            <th>Clicks</th>
         </tr>
         </thead>
         <tbody>

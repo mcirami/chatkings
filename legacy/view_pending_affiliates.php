@@ -27,21 +27,21 @@ $users = \LeadMax\TrackYourStats\User\AffiliateSignUp::queryFetchPendingAffiliat
 		
 		
 		<div class = "clear"></div>
-		<div class = "white_box manage_aff large_table value_span8">
-			<table class = "table table-bordered table-striped table_01" id = "mainTable">
+		<div class = "content_box manage_aff large_table value_span8">
+			<table class = "table table-striped table_01" id = "mainTable">
 				<thead>
 				
-				<tr>
+				<tr class="value_span10-1">
 					
-					<th class = "value_span9">User ID</th>
-					<th class = "value_span9">Username</th>
-					<th class = "value_span9">First Name</th>
-					<th class = "value_span9">Last Name</th>
-					<th class = "value_span9">Email</th>
-					<th class = "value_span9">Skype</th>
-					<th class = "value_span9">Company Name</th>
-					<th class = "value_span9">Timestamp</th>
-					<th class = "value_span9">Actions</th>
+					<th>User ID</th>
+					<th>Username</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+					<th>Skype</th>
+					<th>Company Name</th>
+					<th>Timestamp</th>
+					<th>Actions</th>
 				
 				</tr>
 				</thead>
@@ -58,7 +58,7 @@ $users = \LeadMax\TrackYourStats\User\AffiliateSignUp::queryFetchPendingAffiliat
 					echo "<td>{$user->skype}</td>";
 					echo "<td>{$user->company_name}</td>";
 					echo "<td>{$user->rep_timestamp}</td>";
-					echo "<td><a target='_blank' class='btn btn-default btn-sm' href='activate_affiliate.php?id={$user->idrep}'>Activate</a></td>";
+					echo "<td><a target='_blank' class='btn' href='activate_affiliate.php?id={$user->idrep}'>Activate</a></td>";
 					echo "</tr>";
 				}
 				?>

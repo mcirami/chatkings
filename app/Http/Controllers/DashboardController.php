@@ -19,6 +19,9 @@ class DashboardController extends Controller
             'userId' => Session::userID(),
             'firstName' => Session::userData()->first_name,
             'email' => Session::userData()->email,
+            'username' => Session::userData()->user_name,
+            'phone' => Session::userData()->cell_phone,
+            'skype' => Session::userData()->skype,
         ];
 
 

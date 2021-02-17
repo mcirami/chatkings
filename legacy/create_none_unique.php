@@ -42,7 +42,7 @@ $offer = \LeadMax\TrackYourStats\Offer\Offer::selectOneQuery($_GET["id"])->fetch
 		
 		</div>
 		
-		<div class = "white_box_x_scroll white_box  value_span8 ">
+		<div class = "white_box_x_scroll content_box  value_span8 ">
 			<div class = "left_con01">
 				
 				

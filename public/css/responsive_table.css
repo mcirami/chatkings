@@ -73,9 +73,9 @@ table.table_01 {
     font-size: 16px; !important;
 }
 	/* Zebra striping */
-table.table_01 tr:nth-of-type(odd) {
+/*table.table_01 tr:nth-of-type(odd) {
  background: #fff;
-}
+}*/
 table.table_01 th {
 	color: #778697;
 	font-size:12px;

@@ -87,7 +87,7 @@ ini_set('display_errors', 1);
     </nav>
 </header>
 
-<div class="top_sec value_span1">
+<div class="top_sec value_span1 value_span5-2">
     <div class="logo">
         <a href="{{$webroot}}"><img
                     src="{{ $webroot.\LeadMax\TrackYourStats\System\Company::loadFromSession()->getImgDir() .  "/logo.png"}}"
@@ -95,18 +95,10 @@ ini_set('display_errors', 1);
                     title="<?php echo \LeadMax\TrackYourStats\System\Company::loadFromSession()->getShortHand(); ?>"/></a>
     </div>
 
-    <ul class="main_menu">
-
-        <?php
-        $navBar->printNav();
-        ?>
-
-    </ul>
-
     <div class="header_right">
          <div class="logout">
             <?php
-            echo "<a class=\"value_span11 value_span2 value_span4\" href=\"/logout\">Logout</a>";
+            echo "<a class=\"value_span6-1 value_span2 value_span11-2\" href=\"/logout\">Logout</a>";
 
             ?>
 
@@ -119,35 +111,42 @@ ini_set('display_errors', 1);
 
     <div class="left_panel value_span3">
 
-    <ul>
+        <ul class="main_menu">
+
+            <?php
+            $navBar->printNav();
+            ?>
+
+        </ul>
+    <!--<ul>
             <li>
                 <h2 class="label value_span2">Name</h2>
-                <h3 class="value_span5 username"><?php echo \LeadMax\TrackYourStats\System\Session::userData()->first_name; ?> <?php echo \LeadMax\TrackYourStats\System\Session::userData()->last_name; ?></h3>
+                <h3 class="value_span5 username"><?php //echo \LeadMax\TrackYourStats\System\Session::userData()->first_name; ?> <?php echo \LeadMax\TrackYourStats\System\Session::userData()->last_name; ?></h3>
             </li>
             <li>
                 <h2 class="label value_span2">Username</h2>
-                <h3 class="value_span5 username"><?php echo \LeadMax\TrackYourStats\System\Session::userData()->user_name; ?></h3>
+                <h3 class="value_span5 username"><?php //echo \LeadMax\TrackYourStats\System\Session::userData()->user_name; ?></h3>
             </li>
             <li>
                 <h2 class="label value_span2">Email</h2>
-                <h3 class="value_span5 username"><?php echo \LeadMax\TrackYourStats\System\Session::userData()->email; ?></h3>
+                <h3 class="value_span5 username"><?php //echo \LeadMax\TrackYourStats\System\Session::userData()->email; ?></h3>
             </li>
             <li>
                 <h2 class="label value_span2">Phone No</h2>
-                <h3 class="value_span5 username"><?php echo \LeadMax\TrackYourStats\System\Session::userData()->cell_phone; ?></h3>
+                <h3 class="value_span5 username"><?php //echo \LeadMax\TrackYourStats\System\Session::userData()->cell_phone; ?></h3>
             </li>
             <li>
                 <h2 class="label value_span2">Skype Id</h2>
-                <h3 class="value_span5 username"><?php echo \LeadMax\TrackYourStats\System\Session::userData()->skype; ?></h3>
+                <h3 class="value_span5 username"><?php //echo \LeadMax\TrackYourStats\System\Session::userData()->skype; ?></h3>
             </li>
         <?php
-        $userId = \LeadMax\TrackYourStats\System\Session::userData()->idrep;
+        //$userId = \LeadMax\TrackYourStats\System\Session::userData()->idrep;
         ?>
             <li>
                 <h2 class="label value_span2">Password</h2>
-                <a href="{{$webroot . 'aff_update.php?idrep=' . $userId}}" class="value_span5 username">Change Password</a>
+                <a href="{{--{{$webroot . 'aff_update.php?idrep=' . $userId}}--}}" class="value_span5 username">Change Password</a>
             </li>
-        </ul>
+        </ul>-->
     </div><!--left_panel-->
 
 

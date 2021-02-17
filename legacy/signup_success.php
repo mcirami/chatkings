@@ -60,7 +60,7 @@ $webroot = getWebRoot();
 
 <style>
 	
-	.white_box {
+	.content_box {
 		
 		margin-top: 40px;
 	}
@@ -99,7 +99,7 @@ $webroot = getWebRoot();
 <div class = "white_box_outer">
 	
 	<div class = "clear"></div>
-	<div class = "white_box value_span8">
+	<div class = "content_box value_span8">
 		<div class = "com_acc">
 			
 			<div class = "left_con01">
@@ -123,7 +123,7 @@ $webroot = getWebRoot();
 			
 			</div>
 		</div>
-	</div><!-- white_box -->
+	</div><!-- content_box -->
 </div><!-- white_box_outer -->
 
 

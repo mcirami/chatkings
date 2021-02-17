@@ -54,7 +54,7 @@ $offerView = new \LeadMax\TrackYourStats\Offer\View(\LeadMax\TrackYourStats\Syst
 							<label class = "control-label">Country List:</label>
 							
 							<table id = countryList"
-								   class = "table table-sm table-bordered table-responsive table-striped form-control  "
+								   class = "table table-sm table-responsive table-striped form-control  "
 								   style = "height:250px;  min-width:0;!important;">
 								<thead>
 								<tr>
@@ -77,7 +77,7 @@ $offerView = new \LeadMax\TrackYourStats\Offer\View(\LeadMax\TrackYourStats\Syst
 							<label class = "control-label">Items:</label>
 							
 							<table id = "toAdd"
-								   class = "table table-sm table-bordered table-responsive table-striped form-control  "
+								   class = "table table-sm table-responsive table-striped form-control  "
 								   style = "height:250px;  min-width:0;!important; ">
 								<thead>
 								<tr>
@@ -168,7 +168,7 @@ $offerView = new \LeadMax\TrackYourStats\Offer\View(\LeadMax\TrackYourStats\Syst
 							<label class = "control-label">Device List:</label>
 							
 							<table id = deviceList"
-								   class = "table table-sm table-bordered table-responsive table-striped form-control  "
+								   class = "table table-sm table-responsive table-striped form-control  "
 								   style = "height:250px;  min-width:0;!important; ">
 								<thead>
 								<tr>
@@ -200,7 +200,7 @@ $offerView = new \LeadMax\TrackYourStats\Offer\View(\LeadMax\TrackYourStats\Syst
 							<label class = "control-label">Items:</label>
 							
 							<table id = "deviceToAdd"
-								   class = "table table-sm table-bordered table-responsive table-striped form-control  "
+								   class = "table table-sm table-responsive table-striped form-control  "
 								   style = "height:250px; min-width:0;!important;">
 								<thead>
 								<tr>
@@ -280,7 +280,7 @@ $offerView = new \LeadMax\TrackYourStats\Offer\View(\LeadMax\TrackYourStats\Syst
 			<div class = "clear"></div>
 			
 			
-			<div class = " white_box value_span8">
+			<div class = " content_box value_span8">
 				
 				<div class = "left_con01 white_box_x_scroll">
 					
@@ -304,7 +304,7 @@ $offerView = new \LeadMax\TrackYourStats\Offer\View(\LeadMax\TrackYourStats\Syst
 					
 					</p>
 					<table id = "rules"
-						   class = "table table-sm table-sm table-condensed table-bordered table-stripped table-hover table_01">
+						   class = "table table-sm table-sm table-condensed table-stripped table-hover table_01">
 						
 						<thead>
 						<th>Rule Name</th>

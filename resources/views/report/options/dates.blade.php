@@ -43,12 +43,12 @@
 </select>
 
 
-<label for='d_from'>From:</label>
+<label class="value_span10" for='d_from'>From:</label>
 <input style='width:100px;' onchange='setCustom();' type="text" id="d_from"
        name="d_from"
        value='{{request()->query("d_from", \Carbon\Carbon::today('America/Los_Angeles')->format('Y-m-d'))}}'>
 
-<label for='d_to'>To:</label>
+<label class="value_span10" for='d_to'>To:</label>
 <input style='width:100px;' onchange='setCustom();' type="text" id="d_to" name="d_to"
        value='{{request()->query('d_to', \Carbon\Carbon::today('America/Los_Angeles')->format('Y-m-d'))}}'>
 

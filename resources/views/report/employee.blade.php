@@ -10,22 +10,22 @@
 @endsection
 
 @section('table')
-    <table class="table table-bordered table-striped table_01 tablesorter" id="mainTable">
+    <table class="table table-striped table_01 tablesorter" id="mainTable">
         <thead>
-        <tr>
-            <th class="value_span9">Rep ID</th>
-            <th class="value_span9">Rep</th>
-            <th class="value_span9">Raw</th>
-            <th class="value_span9">Unique</th>
-            <th class="value_span9">Free Sign Ups</th>
-            <th class="value_span9">Pending Conversions</th>
-            <th class="value_span9">Conversions</th>
-            <th class="value_span9  headers ">Sales Revenue</th>
-            <th class="value_span9  ">Deductions</th>
-            <th class="value_span9">EPC</th>
-            <th class="value_span9">Bonus Revenue</th>
-            <th class="value_span9">Referral Revenue</th>
-            <th class="value_span9">TOTAL</th>
+        <tr class="value_span10-1">
+            <th>Rep ID</th>
+            <th>Rep</th>
+            <th>Raw</th>
+            <th>Unique</th>
+            <th>Free Sign Ups</th>
+            <th>Pending Conversions</th>
+            <th>Conversions</th>
+            <th class=" headers ">Sales Revenue</th>
+            <th class="  ">Deductions</th>
+            <th>EPC</th>
+            <th>Bonus Revenue</th>
+            <th>Referral Revenue</th>
+            <th>TOTAL</th>
         </tr>
         </thead>
         <tbody>

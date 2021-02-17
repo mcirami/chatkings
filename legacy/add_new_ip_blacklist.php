@@ -27,7 +27,7 @@ if(isset($_POST["start"]) && isset($_POST["end"]))
 
         </div>
 
-        <div class=" white_box  value_span8 ">
+        <div class=" content_box  value_span8 ">
 
 
             <form action="add_new_ip_blacklist.php" method="post">
@@ -35,11 +35,11 @@ if(isset($_POST["start"]) && isset($_POST["end"]))
 
 
                     <p>
-                        <label for="start">Start Range:</label>
+                        <label class="value_span10" for="start">Start Range:</label>
                         <input type="text" name="start">
                     </p>
                     <p>
-                        <label for="end">End Range:</label>
+                        <label class="value_span10" for="end">End Range:</label>
                         <input type="text" name="end">
                     </p>
 

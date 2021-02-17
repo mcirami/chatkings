@@ -2,7 +2,7 @@
 
 @section('content')
     <!--right_panel-->
-    <div class = "right_panel">
+    <div class = "right_panel value_span7">
         <div class = "white_box_outer large_table ">
             <div class = "heading_holder">
                 <span class = "lft value_span9">Offer URLs</span>
@@ -10,8 +10,8 @@
 
             </div>
 
-            <div class = "white_box_x_scroll white_box manage_aff large_table value_span8 ">
-                <table class = "table table-bordered table_01" id = "mainTable">
+            <div class = "white_box_x_scroll content_box manage_aff large_table value_span8 ">
+                <table class = "table table_01" id = "mainTable">
                     <thead>
 
                     <tr>

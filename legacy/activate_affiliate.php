@@ -43,7 +43,7 @@ $create->dumpPermissionsToJavascript();
 		<div class = "heading_holder value_span9"><span
 					class = "lft"> Activate Affiliate  </span></div>
 		
-		<div class = "white_box value_span8">
+		<div class = "content_box value_span8">
 			
 			<form action = "<?php htmlspecialchars($_SERVER['PHP_SELF']) . "?id={$id}"; ?>" method = "post" id = "form"
 				  class = "form-horizontal" enctype = "multipart/form-data">

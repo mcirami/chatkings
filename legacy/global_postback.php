@@ -41,7 +41,7 @@ if (isset($_POST["postback_url"]))
 		<div class = "clear"></div>
 		<form action = "global_postback.php" method = "POST">
 
-			<div class = "white_box value_span8">
+			<div class = "content_box value_span8">
 
 				<div class = "left_con01">
 

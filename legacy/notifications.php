@@ -17,21 +17,25 @@ $notifications->fetchUsersNotifications();
         <div class="white_box_outer ">
             <div class="heading_holder">
                 <span class="lft value_span9">Notifications</span>
-                <?php
-                if (\LeadMax\TrackYourStats\System\Session::permissions()->can("create_notifications"))
-                    echo "<a style='margin-left: 1%; margin-top:.3%;' href=\"create_notification.php\" class='btn btn-default btn-sm'><img src='/images/icons/add.png' >&nbsp;Create Notification</a>";
+                <div class="my_row">
 
-                ?>
+                    <?php
+                      if (\LeadMax\TrackYourStats\System\Session::permissions()->can("create_notifications"))
+                          echo "<a href=\"create_notification.php\" class='btn btn-default btn-sm'>Create Notification</a>";
+
+                      ?>
+
+                </div>
             </div>
-            <div class="white_box_x_scroll white_box value_span8" >
+            <div class="white_box_x_scroll content_box value_span8" >
 
                 <?php
 
                     if($assign->get("action") == null)
                     {
-                        echo " <table class=\"table-sm table table-bordered  \" id=\"mainTable\"'>
+                        echo " <table class=\"table-sm table \" id=\"mainTable\"'>
                                 <thead>
-                                <tr>
+                                <tr class=\"value_span10-1\">
                                     <td>Title</td>
                                     <td>Body</td>
                                     <td>Date</td>
@@ -138,7 +142,7 @@ $notifications->fetchUsersNotifications();
 <!--                        </a>-->
 <!--                    </div>-->
 <!--                </div>-->
-            </div><!-- white_box -->
+            </div><!-- content_box -->
         </div><!-- white_box_outer -->
     </div>
     <!--right_panel-->
