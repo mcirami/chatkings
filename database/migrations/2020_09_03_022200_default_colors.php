@@ -14,9 +14,9 @@ class DefaultColors extends Migration
     public function up()
     {
         Schema::table('company', function (Blueprint $table) {
-            $table->string('colors', 255)->default('000000;FFFFFF;323645;61527E;848896;A48BD5;F6F6F6;FFFFFF;404452;999999;E94038')->change();
+            $table->string('colors', 255)->default('000000;FFFFFF;0d0d0d;000000;555353;242323;000000;000000;ffffff;ffffff;a1853a')->change();
         });
-        DB::raw('UPDATE company set colors = "000000;FFFFFF;323645;61527E;848896;A48BD5;F6F6F6;FFFFFF;404452;999999;E94038"');
+        DB::raw('UPDATE company set colors = "000000;FFFFFF;0d0d0d;000000;555353;242323;000000;000000;ffffff;ffffff;a1853a"');
     }
 
     /**
@@ -27,8 +27,8 @@ class DefaultColors extends Migration
     public function down()
     {
         Schema::table('company', function (Blueprint $table) {
-            $table->string('colors', 255)->default('484848;FFFFFF;2A58AD;1D4C9E;82A7EB;FCED16;EAEEF1;FFFFFF;404452;999999')->change();
+            $table->string('colors', 255)->default('000000;FFFFFF;0d0d0d;000000;555353;242323;000000;000000;ffffff;ffffff;a1853a')->change();
         });
-        DB::raw('UPDATE company set colors = "484848;FFFFFF;2A58AD;1D4C9E;82A7EB;FCED16;EAEEF1;FFFFFF;404452;999999"');
+        DB::raw('UPDATE company set colors = "000000;FFFFFF;0d0d0d;000000;555353;242323;000000;000000;ffffff;ffffff;a1853a"');
     }
 }
